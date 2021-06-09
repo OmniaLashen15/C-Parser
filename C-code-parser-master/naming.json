@@ -1,0 +1,31 @@
+{
+  "Declarations":{
+
+    "structures" :  "([A-Z][a-z0-9]*_)+s",
+    "unions" : "([A-Z][a-z0-9_]*_)+u",
+    "enumerations" : "([A-Z][a-z0-9_]*_)+e",
+    "types": "([A-Z][a-z0-9_]*_)+t",
+    "functions": "([A-Z][a-z0-9]*_)+f"
+
+  },
+
+  "Global": {
+
+    "structures" :  "G_([A-Z][a-z0-9]*_)+s",
+    "unions" : "G_([A-Z][a-z0-9_]*_)+u",
+    "enumerations" : "G_([A-Z][a-z0-9_]*_)+e",
+    "Other":  "G_([A-Z][a-z0-9_]*)"
+
+  },
+
+  "Local": {
+    "func_parameters": "([A-Z][A-Za-z0-9]*_)+arg",
+    "structures" :  "L_([A-Z][a-z0-9]*_)+s",
+    "unions" : "L_([A-Z][a-z0-9_]*_)+u",
+    "enumerations" : "L_([A-Z][a-z0-9_]*_)+e",
+    "Other":  "L_([A-Z][a-z0-9_]*)"
+  }
+
+
+
+}
